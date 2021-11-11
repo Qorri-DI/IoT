@@ -17,20 +17,18 @@
 #define CF1_PIN         17
 #define CF_PIN          21
 
-// Wifi Configuration
-#define WIFISSID    "DXB"
-#define PASSWORD    "telkom2021"
+// Wifi Configuration 
+#define WIFISSID    "qorri-di.com"
+#define PASSWORD    "c0b@W!ff1"
 
-// Apps Configuration
-#define ACCESSKEY       "ec181439c172f36b:322dbade46fce459"
-#define applicationName "Indobot"
-#define dat_device    "Database"
-#define rel_device    "Relay"
+// Apps Configuration 
+#define ACCESSKEY       "023186a3d8688ff0:abf21299f1b90856"
+#define applicationName "dwi"
+#define dat_device    "db1"
+#define rel_device    "relay1"
 
 // Set SEL_PIN to HIGH to sample current
-// This is the case for Itead's Sonoff POW, where a
-// the SEL_PIN drives a transistor that pulls down
-// the SEL pin in the HLW8012 when closed
+// This is the case for Itead's Sonoff POW, where a the SEL_PIN drives a transistor that pulls down the SEL pin in the HLW8012 when closed
 #define CURRENT_MODE    HIGH
 
 // These are the nominal values for the resistors in the circuit
@@ -63,9 +61,7 @@ void defineDelay(){
     last = millis();
     timer_done = true;
 
-    // When not using interrupts we have to manually switch to current or voltage monitor
-    // This means that every time we get into the conditional we only update one of them
-    // while the other will return the cached value.
+ // When not using interrupts we have to manually switch to current or voltage monitor This means that every time we get into the conditional we only update one of them while the other will return the cached value.
     hlw8012.toggleMode();  
   }
 }  
