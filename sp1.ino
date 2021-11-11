@@ -28,9 +28,7 @@
 #define rel_device    "relay1"
 
 // Set SEL_PIN to HIGH to sample current 
-// This is the case for Itead's Sonoff POW, where a
-   the SEL_PIN drives a transistor that pulls down
-   the SEL pin in the HLW8012 when closed 
+// This is the case for Itead's Sonoff POW, where a the SEL_PIN drives a transistor that pulls down the SEL pin in the HLW8012 when closed 
 #define CURRENT_MODE    HIGH
 
 // These are the nominal values for the resistors in the circuit 
@@ -97,9 +95,7 @@ void sendData(){
   dat_dev.add("voltage_rms", voltage);
   dat_dev.add("current_rms", current);
   
-  // When not using interrupts we have to manually switch to current or voltage monitor
-    This means that every time we get into the conditional we only update one of them
-    while the other will return the cached value. 
+// When not using interrupts we have to manually switch to current or voltage monitor This means that every time we get into the conditional we only update one of them while the other will return the cached value. 
   hlw8012.toggleMode();        
   
   // Send from buffer to Antares 
