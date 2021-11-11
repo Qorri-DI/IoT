@@ -5,7 +5,7 @@ Tools & device
 <br>1. Software Arduino IDE
 <br>2. ESP8266
 <br>3. Modul Relay
-<br>4. Sensor Daya HLW8012 HLW 8012
+<br>4. Sensor Daya HLW8012
 
 <br>Pengajar
 <br>Name : Lilyani barrung
