@@ -17,11 +17,11 @@
 #define CF1_PIN         17
 #define CF_PIN          21
 
-/* Wifi Configuration */
+// Wifi Configuration
 #define WIFISSID    "qorri-di.com"
 #define PASSWORD    "c0b@W!ff1"
 
-/* Apps Configuration */
+// Apps Configuration
 #define ACCESSKEY       "023186a3d8688ff0:abf21299f1b90856"
 #define applicationName "dwi"
 #define dat_device    "db1"
@@ -46,7 +46,7 @@ float current;
 float voltage;
 int rel_stat;
 
-//Delay variables
+// Delay variables
 unsigned long rel_timeout;
 bool timer_done;
 
