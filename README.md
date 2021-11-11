@@ -3,16 +3,15 @@ Learn IoT
 
 Pengajar
 <br>Name : Lilyani barrung
-Linkedin : https://id.linkedin.com/in/lilyani-barrung-194760170
+<br><a href="https://id.linkedin.com/in/lilyani-barrung-194760170">Linkedin</a>
 
-Sumber 
-Antares : https://antares.id/
-Indobot : https://indobot.co.id/
-Tutorial ESP8266 : https://antares.id/id/esp-library-example.html
-Esp8266 Library Antares : https://github.com/antaresdocumentation/antares-esp8266-http/archive/master.zip
+<br>Sumber 
+<br><a href="https://antares.id/">Antares</a>
+<br><a href="https://indobot.co.id/">Indobot</a>
+<br><a href="https://antares.id/id/esp-library-example.html">Tutorial ESP8266</a>
+<br><a href="https://github.com/antaresdocumentation/antares-esp8266-http/archive/master.zip">Esp8266 Library Antares</a>
 
-About
-Name : Qorri D Istajib
-Web : https://www.qorri-di.com/
-IG : https://www.instagram.com/qorri_di/
-Linkedin : https://id.linkedin.com/in/qorri-dwi-istajib-a75759b4
+<br>About
+<br>Name : <a href="https://qorri-di.com/">Qorri D Istajib
+<br><a href="https://www.instagram.com/qorri_di/">Instagram</a>
+<br><a href="https://id.linkedin.com/in/qorri-dwi-istajib-a75759b4">Linkedin</a>
