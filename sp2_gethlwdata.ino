@@ -54,7 +54,6 @@ AntaresESP32HTTP rel_dev(ACCESSKEY);
 HLW8012 hlw8012;
 
 // Procedure
-
 void defineDelay(){
   static unsigned long last = millis();
   if ((millis() - last) > rel_timeout) {
