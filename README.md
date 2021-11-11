@@ -1,6 +1,12 @@
 # Smart Power workshop Antares with Indobot.co.id
 Learn IoT
 
+Tools & device
+<br>1. Software Arduino IDE
+<br>2. ESP8266
+<br>3. Modul Relay
+<br>4. 
+
 Pengajar
 <br>Name : Lilyani barrung
 <br><a href="https://id.linkedin.com/in/lilyani-barrung-194760170">Linkedin</a>
